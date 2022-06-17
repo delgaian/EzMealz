@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server side for EzMealz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delgaian/CS290.git"
+  },
+  "author": "Ian J.G Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delgaian/CS290/issues"
+  },
+  "homepage": "https://github.com/delgaian/CS290#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
