@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'EzMealz'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3786ABA9EB14455B31009AB622DE3ED }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_00CE4939B97047D79EE30A4CB5A5D377 }}
           package: .
